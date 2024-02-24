@@ -4,7 +4,7 @@ const url = JSON.stringify(import.meta.env.VITE_API_URL);
 
 export const authApi = createApi({
     reducerPath: 'authApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://alert-hare-outerwear.cyclic.app/api/user' }),
+    baseQuery: fetchBaseQuery({ baseUrl: url + '/api/user' }),
     endpoints: (builder) => ({
         userRegister: builder.mutation({
             query: (userInfo) => ({
