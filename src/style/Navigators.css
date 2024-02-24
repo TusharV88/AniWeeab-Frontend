@@ -1,0 +1,25 @@
+.naviSlide {
+    position: absolute;
+    top: 80vh;
+    right: 5vw;
+    z-index: 100000
+}
+
+.naviItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBtn {
+    background-color: #ff3838 !important;
+
+}
+
+.navBtn:hover {
+    background-color: #ff0000 !important;
+}
+
+.disableBtn {
+    background-color: rgba(128, 128, 128, 0.244) !important;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.loadingBtn {
+    background-color: #593030 !important;
+}
+
+.loadingBtn :first-child {
+    color: #ff3838 !important;
+}
+
+.btn {
+    color: #eaddd1 !important;
+    background-color: #ff3838 !important;
+}
+
+.formLink {
+    text-decoration: none;
+    color: #ff3838;
+    transition: all ease-in-out 0.1s;
+}
+
+.formLink:hover {
+    color: #ff0808;
+    border-bottom: 2px solid #ff0808;
+}
+
+.browser input::-ms-reveal {
+    display: none;
+}

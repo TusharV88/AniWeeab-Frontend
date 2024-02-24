@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&family=Cinzel:wght@500&family=Lora:ital@1&family=Quicksand:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin' !important;
+}
+
+body {
+  background-color: #eaddd1;
+}
+
+.headBar {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 8px !important;
+  background: linear-gradient(to right, #ff3838, transparent) !important;
+}
+
+
+.boxer {
+  background: linear-gradient(to top, black, transparent) !important;
+}
+
+
+.removeLoadBtn .css-1yt7yx7-MuiLoadingButton-loadingIndicator {
+  color: #fdfcfa !important;
+}
+
+.iconLoadBtn .css-1yt7yx7-MuiLoadingButton-loadingIndicator {
+  color: #ff3838 !important;
+}
+
+.gridData {
+  font-weight: 700 !important;
+  color: #593030 !important;
+}
+
+
+.trailer {
+  border-radius: 5px !important;
+}
+
+.formInput input {
+  color: #ff3838 !important;
+}
+
+.formInput fieldset {
+  border-color: #593030 !important;
+}
+
+.textfield__label {
+  color: #ff3838 !important;
+}
+
+.reviewStyler {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+.disSpan {
+  visibility: hidden !important;
+}
+
+.favDelBtn {
+  background-color: #ff3838 !important;
+}
+
+.favDelBtn:hover {
+  background-color: red !important;
+}
+
+.favDelLoadBtn {
+  background-color: #ff3838 !important;
+}
+
+.favDelLoadBtn span {
+  color: #fdfcfa !important;
+}
+
+.mediaTypeBtn {
+  color: #ff3838 !important;
+  border-color: #ff3838 !important;
+  font-weight: 600 !important;
+  transition: all .4s ease !important;
+}
+
+.mediaTypeBtnActive {
+  color: #eaddd1 !important;
+  font-weight: 600 !important;
+  background-color: #ff3838 !important;
+  border-color: #ff3838 !important;
+}
+
+.mediaTypeBtn:hover {
+  background-color: #eaddd1 !important;
+  box-shadow: 0px 4px 6px rgba(89, 48, 48, 0.1), 0px 2px 4px rgba(89, 48, 48, 0.06) !important;
+}

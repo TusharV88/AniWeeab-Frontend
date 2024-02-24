@@ -1,0 +1,102 @@
+.nav-char {
+    transition: transform 0.3s ease !important;
+    letter-spacing: 2px !important;
+    font-size: 1.1rem !important;
+}
+
+
+.nav-char:hover {
+    color: #ff3838 !important;
+}
+
+.nav-char.active {
+    color: #eaddd1 !important;
+}
+
+
+.nav-link {
+    position: relative !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+    font-weight: 700 !important;
+    padding: 5px !important;
+}
+
+.nav-link.active {
+    background-color: #ff3838 !important;
+    border-radius: 5px;
+    padding: 8px !important;
+}
+
+.nav-link.navScroll {
+    color: #eaddd1 !important;
+}
+
+
+.nav-link.navScrollActive {
+    color: #593030 !important;
+}
+
+.nav-link.active::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    transition: none;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1.5px;
+    background-color: #ff3838;
+    transition: width 0.25s ease-out;
+}
+
+.nav-link:hover::before {
+    width: 100%;
+}
+
+
+.headerAvatar {
+    color: whitesmoke !important;
+    font-weight: 600;
+}
+
+
+.menuBtn {
+    min-width: 0px !important;
+    border-radius: 50% !important;
+    padding: 0px !important;
+}
+
+.menuScroll{
+    color: #eaddd1 !important;
+}
+
+.menuScrollActive{
+    color: #593030 !important;
+}
+
+.user-menu :nth-child(3) ul {
+    background-color: #eaddd1;
+}
+
+
+.userMenuInfo {
+    cursor: default !important;
+}
+
+.userMenuInfo:hover {
+    background: transparent !important;
+}
+
+.user-drawer .css-4t3x6l-MuiPaper-root-MuiDrawer-paper {
+    background-color: #eaddd1 !important;
+}

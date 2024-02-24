@@ -1,0 +1,31 @@
+.slider {
+    height: 100vh;
+}
+
+
+.btn:hover {
+    background-color: #ff0000 !important;
+}
+
+.iconBtn {
+    background-color: #ff3838 !important;
+    border-radius: 5px !important;
+}
+
+.iconBtn:hover {
+    background-color: #fe0000 !important;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .slider {
+        height: 75vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slider {
+        height: 65vh;
+    }
+}

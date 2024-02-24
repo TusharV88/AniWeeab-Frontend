@@ -1,0 +1,29 @@
+.formInput input {
+    color: #ff3838;
+}
+
+.formInput fieldset {
+    border-color: #593030 !important;
+}
+
+.textfield__label {
+    color: #ff3838 !important;
+}
+
+.loadMoreBtn {
+    background-color: #ff3838 !important;
+    color: #eaddd1 !important;
+}
+
+
+.loadMoreBtn:hover {
+    background-color: red !important;
+}
+
+.loadMoreBtnActive {
+    background-color: #ff6d63 !important;
+}
+
+.loadMoreBtnActive span {
+    color: white !important;
+}
