@@ -558,7 +558,7 @@ const DetailPage = () => {
 
 
                             <Box
-                                ref={tiltRef}
+                                ref={isSmallScreen ? null : tiltRef}
                                 className="detailImgHeader"
                                 sx={{
                                     width: isExtraSmallScreen ? '200px' : isSmallScreen ? '250px' : '300px',
