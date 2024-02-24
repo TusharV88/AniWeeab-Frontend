@@ -49,11 +49,6 @@ const FavoritesPage = () => {
 
 
     useEffect(() => {
-        dispatch(startLoading());
-    }, []);
-
-
-    useEffect(() => {
         if (slidesLength === 0 || (isSuccess && data)) {
             if (userFavoritesLimit === 0) {
                 setIsFetcher(true);
