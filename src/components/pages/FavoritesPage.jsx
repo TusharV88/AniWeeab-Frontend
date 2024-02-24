@@ -11,7 +11,7 @@ import { LoadingButton } from '@mui/lab';
 import { DeleteRounded } from '@mui/icons-material';
 import { toast } from 'react-toastify';
 import AniLoader from '../common/AniLoader.jsx';
-import { startLoading, stopLoading } from '../../redux/slices/aniLoaderSlice.js';
+import { stopLoading } from '../../redux/slices/aniLoaderSlice.js';
 
 
 const FavoritesPage = () => {
