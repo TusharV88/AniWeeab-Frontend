@@ -1,10 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const url = JSON.stringify(import.meta.env.VITE_API_URL);
 
 export const mangaApi = createApi({
     reducerPath: 'mangaApi',
-    baseQuery: fetchBaseQuery({ baseUrl: url + '/api/weeabApi/manga' }),
+    baseQuery: fetchBaseQuery({ baseUrl: SERVER_URL + '/api/weeabApi/manga' }),
     endpoints: (builder) => ({
         seasonsNowMain: builder.query({
             query: (token) => ({

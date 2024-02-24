@@ -1,11 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 
-const url = JSON.stringify(import.meta.env.VITE_API_URL);
-
 export const favoriteApi = createApi({
     reducerPath: 'favoriteApi',
-    baseQuery: fetchBaseQuery({ baseUrl: url + '/api/favorite' }),
+    baseQuery: fetchBaseQuery({ baseUrl: SERVER_URL + '/api/favorite' }),
     endpoints: (builder) => ({
         favoriteAdd: builder.mutation({
             query: ({ token, mediaID, mediaType, mediaImage, mediaTitle, mediaTitleEnglish }) => ({

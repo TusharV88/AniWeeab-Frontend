@@ -1,10 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const url = JSON.stringify(import.meta.env.VITE_API_URL);
 
 export const homeApi = createApi({
     reducerPath: 'homeApi',
-    baseQuery: fetchBaseQuery({ baseUrl: url + '/api/weeabApi' }),
+    baseQuery: fetchBaseQuery({ baseUrl: SERVER_URL + '/api/weeabApi' }),
     endpoints: (builder) => ({
         seasonsNow: builder.query({
             query: (token) => ({

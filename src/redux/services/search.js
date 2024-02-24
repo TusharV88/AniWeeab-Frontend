@@ -1,10 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const url = JSON.stringify(import.meta.env.VITE_API_URL);
 
 export const searchMediaApi = createApi({
     reducerPath: 'searchMediaApi',
-    baseQuery: fetchBaseQuery({ baseUrl: url + '/api/weeabApi/search' }),
+    baseQuery: fetchBaseQuery({ baseUrl: SERVER_URL + '/api/weeabApi/search' }),
     endpoints: (builder) => ({
         searchMedia: builder.query({
             query: ({ token, mediaTypeState, query, pageNo }) => ({

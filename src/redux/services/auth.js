@@ -1,10 +1,9 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-const url = JSON.stringify(import.meta.env.VITE_API_URL);
 
 export const authApi = createApi({
     reducerPath: 'authApi',
-    baseQuery: fetchBaseQuery({ baseUrl: url + '/api/user' }),
+    baseQuery: fetchBaseQuery({ baseUrl: SERVER_URL + '/api/user' }),
     endpoints: (builder) => ({
         userRegister: builder.mutation({
             query: (userInfo) => ({
