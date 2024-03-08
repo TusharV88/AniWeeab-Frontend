@@ -149,7 +149,7 @@ const ReviewsPage = () => {
                                             <Box
                                                 sx={{ width: { xs: 0, md: "10%" } }}
                                                 component={Link}
-                                                to={`/details/${item.mediaType}/${item.mediaID}`}
+                                                to={`/${item.mediaType}/${item.mediaID}`}
                                             >
                                                 <Box sx={{
                                                     paddingTop: "160%",
